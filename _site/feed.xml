@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>7amthereaper</title>
   <subtitle>a Cybersecurity major student, Reverse Engineer and Malware Analyst who's Interested in low-level stuff/programming and how things work under the hood..</subtitle>
-  <updated>2026-03-19T15:23:08+02:00</updated>
+  <updated>2026-03-20T07:35:21+02:00</updated>
   <author>
     <name>7amthereaper</name>
     <uri>http://localhost:4000/</uri>
@@ -22,9 +22,9 @@
   <entry>
     <title>Brbbot: Full Malware analysis</title>
     <link href="http://localhost:4000/posts/brbbot-analysis/" rel="alternate" type="text/html" title="Brbbot: Full Malware analysis" />
-    <published>2026-02-05T12:00:00+02:00</published>
+    <published>2026-03-15T12:00:00+02:00</published>
   
-    <updated>2026-02-05T12:00:00+02:00</updated>
+    <updated>2026-03-19T16:40:36+02:00</updated>
   
     <id>http://localhost:4000/posts/brbbot-analysis/</id>
     <content type="text/html" src="http://localhost:4000/posts/brbbot-analysis/" />
@@ -38,7 +38,7 @@
     
   
 
-  <summary>Brbbot functions as a trojan or bot, it can also be used as a backdoor. sample hash: f9227a44ea25a7ee8148e2d0532b14bb640f6dc52cb5b22a9f4fa7fa037417fa  Quick triage by frisking strings, it gave me a pretty good idea about how the malware would behave.   a lot of networking-related strings. these encode ,sleep ,exit ,conf ,file ,exec. we will find out later that they’re c2 cmds.     beside, there...</summary>
+  <summary>Brbbot functions as a trojan or bot, it can also be used as a backdoor. sample hash: f9227a44ea25a7ee8148e2d0532b14bb640f6dc52cb5b22a9f4fa7fa037417fa  Quick triage frisking strings was pretty useful, it gave me a pretty good idea about how the malware would behave.   a lot of network-related strings. these encode ,sleep ,exit ,conf ,file ,exec. we will find out later that they’re the bot cmds. ...</summary>
 
   </entry>
 
@@ -48,7 +48,7 @@
     <link href="http://localhost:4000/posts/xworm-full-analysis/" rel="alternate" type="text/html" title="XWorm RAT: Full Malware Analysis &amp;amp; Behavioral Breakdown" />
     <published>2026-02-05T12:00:00+02:00</published>
   
-    <updated>2026-03-18T22:32:08+02:00</updated>
+    <updated>2026-03-19T15:26:13+02:00</updated>
   
     <id>http://localhost:4000/posts/xworm-full-analysis/</id>
     <content type="text/html" src="http://localhost:4000/posts/xworm-full-analysis/" />
