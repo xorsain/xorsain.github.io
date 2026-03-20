@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Brbbot: Full Malware analysis"
+thumbnail: /assets/images/brbbot/kali.PNG
 date: 2026-03-15 12:00:00 +0200
 categories: [Malware Analysis]
 ---
