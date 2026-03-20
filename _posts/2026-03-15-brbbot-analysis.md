@@ -32,7 +32,16 @@ also, while searching resources, i found this, it may be related to the `brbbotc
 ### Traffic analysis & C2 communication
 after a couple of minuets from running the sample for some traffic analysis, here i found that it's reaching for the c2 server `brb.3dtuts.by`, requiting `ads.php` and exfiltrating what it seems to be encrypted data (saved it for now, we'll get to deciphering it later).
 ![image](/assets/images/brbbot/nt1.png)
-we can then set up a server and pass this `ads.php` to the bot and see what'll happen (i'll come to that :D). since i was using FakeNet-ng, there were no any issues with the http request's response. 
+we can then set up an http server and pass this `ads.php` to the bot and see what'll happen, since i was using FakeNet-ng, there were no any issues with the http request's response.
+in order to make it execute our `ads.php`, i managed to set up an apache server and i then created an `ads.php` that contains `cexe c:\windows\notepad.exe`.
+![image](/assets/images/brbbot/kali1.png)
+![image](/assets/images/brbbot/kali.png)
+also i made sure that my kali machine was set as the DNS server.
+the ip addresses here are different from before, thats because i had to make a vm virtual network, in order to set all of this up.
+
+![image](/assets/images/brbbot/kali3.png)
+indeed! what happened that, instead of reaching for the c2 server and its `ads.php`, it been redirected to our kali machine, reached for our `ads.php` file and executed the cmd that we did set :DD. and there we go it executed the command and opened the `notedpad.exe` as a child process successfully.
+
 
 ### Code analysis & Capabilities
 since we could not tell exactly what `brbbotconfig.tmp` exactly was, i found this a good start.
@@ -59,4 +68,5 @@ we can assume that these are some bot cmds. the `encode=5b` value, was sort of i
 
 now, it's time for some decrypting. using cyberchef, converted these hex to bytes, then xored it with the `0x5b` key. 
 ![image](/assets/images/brbbot/cyberchef.png)
-looks interesting,   
+looks interesting, here it's collecting all the processes, it's quite obvious why.
+this is a common bots behavior, to see if there any exploitable apps, useful apps that helps with post-exploitation etc..
