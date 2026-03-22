@@ -58,6 +58,7 @@ frisking the import table, i found that it was using `CryptyDecrypt` function,wh
 ![image](/assets/images/brbbot/dbg_decrypt.png)
 `uri=ads.php;exec=cexe;file=elif;conf=fnoc;exit=tixe;encode=5b;sleep=30000`
 we can assume that these are some bot cmds. the `encode=5b` value, was sort of interesting, seems like it's a key for encoding something.
+* uri - the uri for the panel file on the c2 <br> exec, file, conf, exit - possible bot commands <br> encode - single byte key that will use us later on <br> sleep - sleeps a period of time
 
 since we still have the encrypted exfiltrated data, using cyberchef, converted these hex to bytes, then xored it with the `0x5b` key (commonly used in these scenarios). 
 ![image](/assets/images/brbbot/cyberchef.png)
