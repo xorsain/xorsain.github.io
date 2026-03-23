@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>7amthereaper</title>
   <subtitle>a Cybersecurity major student, Reverse Engineer and Malware Analyst who's Interested in low-level stuff/programming and how things work under the hood..</subtitle>
-  <updated>2026-03-22T18:18:49+02:00</updated>
+  <updated>2026-03-23T13:14:14+02:00</updated>
   <author>
     <name>7amthereaper</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/brbbot-full-analysis/" rel="alternate" type="text/html" title="Brbbot: Full Malware Analysis &amp;amp; Reverse Engineering" />
     <published>2026-03-15T12:00:00+02:00</published>
   
-    <updated>2026-03-22T18:13:14+02:00</updated>
+    <updated>2026-03-22T18:21:45+02:00</updated>
   
     <id>http://localhost:4000/posts/brbbot-full-analysis/</id>
     <content type="text/html" src="http://localhost:4000/posts/brbbot-full-analysis/" />

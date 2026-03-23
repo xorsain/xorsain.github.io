@@ -66,7 +66,7 @@ looks interesting, here it's doing what it called process enumeration (that'll b
 my be to see if there any exploitable apps, useful apps that helps with thr post-exploitation etc..
 <br>
 
-now its ghidra time, usually when analyzing malware samples such this, i search **Symbolic References**,and i can tell, it's pretty useful. <br>
+now its ghidra time, usually when analyzing malware samples such this, i search **Symbolic References**, and i can tell, it's pretty useful. <br>
 ![image](/assets/images/brbbot/ghidra.png)
 
 i first found a reference to Reg Keys Apis such `RegOpenKeyExA`, `RegSetValueExA`. i knew this have to do with *persistency*, so i navigated to them.
@@ -95,6 +95,9 @@ func(...);
 ```
 ![image](/assets/images/brbbot/DAR.png)
 _Dynamic API Resolution_
+
+after a couple of minutes of analyzing, we can see here that it's decrypting `brbbotconfig.tmp` using `YnJiYm90` key. after that, it extracts the keys using `FUN_0100236a` function.
+![image](/assets/images/brbbot/ghidra_4.png)
 
 ### Brbbot command and control
 in order to make it execute our `ads.php`, i managed to set up an apache server and i then created an `ads.php` that contains `cexe c:\windows\notepad.exe`.
