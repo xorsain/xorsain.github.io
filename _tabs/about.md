@@ -7,7 +7,7 @@ order: 4
 
 
 ~$whoami 
-> this is 7amthereaper, a tech enthusiast who enjoys **reverse engineering**, **malware analysis**, and **low-level programming**.
+> this is spaz, a tech enthusiast who enjoys **reverse engineering**, **malware analysis**, and **low-level programming**.
 
 ---
 
@@ -21,5 +21,5 @@ What i do:
 
 
 You can find me on:
-- GitHub: [7amthereaper](https://github.com/7amthereaper)
+- GitHub: [7amthereaper](https://github.com/5pazz)
 
