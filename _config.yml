@@ -14,16 +14,16 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: spaz # the main title
+title: hamthegh0st # the main title
 
 tagline: reverse engineer and malware analyst # it will display as the subtitle
 
 # Some rights reserved
 social:
-  name: spaz
+  name: hamthegh0st
   email:
   links:
-    - https://github.com/5pazz
+    - https://github.com/hamthegh0st
 
 
 description: >- # used by seo meta and the atom feed
@@ -31,10 +31,10 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://5pazz.github.io"
+url: "https://hamthegh0st.github.io"
 
 github:
-  username: 5pazz # change to your GitHub username
+  username: hamthegh0st # change to your GitHub username
 
 # Site Verification Settings
 webmaster_verifications:
