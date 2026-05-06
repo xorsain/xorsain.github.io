@@ -21,5 +21,5 @@ What i do:
 
 
 You can find me on:
-- GitHub: [7amthereaper](https://github.com/5pazz)
+- GitHub: [hamthegh0st](https://github.com/hamthegh0st)
 
