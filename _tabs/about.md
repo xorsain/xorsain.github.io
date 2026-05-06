@@ -7,7 +7,7 @@ order: 4
 
 
 ~$whoami 
-> this is spaz, a tech enthusiast who enjoys **reverse engineering**, **malware analysis**, and **low-level programming**.
+> this is hamthegh0st, a tech enthusiast who enjoys **reverse engineering**, **malware analysis**, and **low-level programming**.
 
 ---
 
